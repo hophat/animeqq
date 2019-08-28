@@ -22,11 +22,11 @@ webpackEmptyAsyncContext.id = 109;
 
 var map = {
 	"../pages/m-detail/m-detail.module": [
-		278,
+		277,
 		1
 	],
 	"../pages/m-play/m-play.module": [
-		277,
+		278,
 		0
 	]
 };
@@ -348,8 +348,8 @@ var AppModule = /** @class */ (function () {
                     mode: 'md'
                 }, {
                     links: [
-                        { loadChildren: '../pages/m-play/m-play.module#MPlayPageModule', name: 'play', segment: 'play/:movie_id/:episode_id', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/m-detail/m-detail.module#MDetailPageModule', name: 'detail', segment: 'detail/:id', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/m-detail/m-detail.module#MDetailPageModule', name: 'detail', segment: 'detail/:id', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/m-play/m-play.module#MPlayPageModule', name: 'play', segment: 'play/:movie_id/:episode_id', priority: 'low', defaultHistory: [] }
                     ]
                 })
             ],
